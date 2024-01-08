@@ -5,7 +5,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test Quiz</title>
+    <title>Javascript Quiz</title>
     <style>
       /* Add some basic styling for better presentation */
       .quiz-container {
@@ -83,11 +83,9 @@
         ];
 
         // Initial display
-
         displayQuestion(currentQuestionIndex);
 
         function displayQuestion(index) {
-          console.log("Displaying question...");
           const currentQuestion = questions[index];
 
           questionElement.textContent = currentQuestion.question;
